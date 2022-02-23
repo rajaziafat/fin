@@ -18,7 +18,7 @@ function Blog() {
                 <button className="bg-[#A5BC52] px-7 py-2 rounded-full mt-5 text-white font-bold drop-shadow-[0_2px_15px_#A5BC52]">Learn More</button>
             </Box>
             <Box className='w-[50%] lg:flex hidden'>
-                <img src={BlogImg} alt="blog"/>
+                <img src={BlogImg} alt=""/>
             </Box>
         </Box>
     )

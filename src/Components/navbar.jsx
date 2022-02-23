@@ -27,19 +27,19 @@ function Navbar() {
             <Box className="items-center justify-between ml-3 w-full lg:flex hidden">
                 <Box className="flex items-center">
                     <a href="#table" className="flex items-center">
-                    <img src={DashIcon} className="w-6 h-6 mr-2" alt="dashboard"/>
+                    <img src={DashIcon} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-bold">
                         Dashboard
                     </Typography>
                     </a>
-                    <a href="#whiteboard" className="flex items-center ml-5">
-                    <img src={WhiteIcon} className="w-6 h-6 mr-2" alt="whiteboard"/>
+                    <a href="#whiteboard1" className="flex items-center ml-5">
+                    <img src={WhiteIcon} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-bold">
                         Whiteboard
                     </Typography>
                     </a>
-                    <a href="#FAQ" className="flex items-center ml-5">
-                    <img src={FAQ} className="w-6 h-6 mr-2" alt="faq"/>
+                    <a href="#FAQ1" className="flex items-center ml-5">
+                    <img src={FAQ} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-bold">
                         FAQ
                     </Typography>
@@ -47,19 +47,19 @@ function Navbar() {
                 </Box>
                 <Box className="flex items-center">
                     <a href="#currency1" className="flex items-center">
-                    <img src={Currency} className="w-6 h-6 mr-2" alt="currency"/>
+                    <img src={Currency} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-black text-[#8247E5]">
                         $3635.65
                     </Typography>
                     </a>
                     <a href="#currency2" className="flex items-center ml-5">
-                    <img src={Currency2} className="w-6 h-6 mr-2" alt="currency2"/>
+                    <img src={Currency2} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-black text-[#8247E5]">
                         $684.65
                     </Typography>
                     </a>
                     <button className="flex items-center ml-5 px-5 py-2 bg-[#A5BC52] rounded-full">
-                    <img src={ConnectIcon} className="w-6 h-6 mr-2" alt="wallet"/>
+                    <img src={ConnectIcon} className="w-6 h-6 mr-2" alt=""/>
                     <Typography className="text-sm font-bold text-white">
                         Connect Wallet
                     </Typography>
@@ -82,32 +82,32 @@ function Navbar() {
               </div>
               <ul className="mt-8 px-5">
                   <li className="flex items-center border-b border-gray-400 pb-6">
-                  <img src={DashIcon} className="w-6 h-6 mr-5" alt="dashboard"/>
+                  <img src={DashIcon} className="w-6 h-6 mr-5" alt=""/>
                     <a href="#dashboard" className="text-sm font-bold">
                         Dashboard
                     </a>
                   </li>
                   <li className="flex items-center border-b border-gray-400 pb-6 mt-6">
-                  <img src={WhiteIcon} className="w-6 h-6 mr-5" alt="whiteboard"/>
+                  <img src={WhiteIcon} className="w-6 h-6 mr-5" alt=""/>
                     <a href="#whiteboard" className="text-sm font-bold">
                         WhiteBOARD
                     </a>
                   </li>
                   <li className="flex items-center border-b border-gray-400 pb-6 mt-6">
-                  <img src={FAQ} className="w-6 h-6 mr-5" alt="faq"/>
+                  <img src={FAQ} className="w-6 h-6 mr-5" alt=""/>
                     <a href="#faq" className="text-sm font-bold">
                         FAQ
                     </a>
                   </li>
                   <li className="flex items-center border-b border-gray-400 pb-6 mt-6">
-                  <img src={Currency} className="w-6 h-6 mr-5" alt="currency"/>
-                    <a href="#currency1" className="text-sm font-bold">
+                  <img src={Currency} className="w-6 h-6 mr-5" alt=""/>
+                    <a href="#currency3" className="text-sm font-bold">
                     $3635.65
                     </a>
                   </li>
                   <li className="flex items-center border-b border-gray-400 pb-6 mt-6">
-                  <img src={Currency2} className="w-6 h-6 mr-5" alt="currency2"/>
-                    <a href="#currency2" className="text-sm font-bold">
+                  <img src={Currency2} className="w-6 h-6 mr-5" alt=""/>
+                    <a href="#currency4" className="text-sm font-bold">
                     $684.64
                     </a>
                   </li>

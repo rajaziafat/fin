@@ -25,7 +25,8 @@ function Table() {
         }
     }
     return (
-        <Box className="bg-[#101620] p-6 md:mx-24 sm:mx-10 mx-5 mt-24 rounded-2xl" id="table">
+        <Box className="pt-24" id="table">
+        <Box className="bg-[#101620] p-6 md:mx-24 sm:mx-10 mx-5 rounded-2xl" >
             <Box className="flex flex-wrap gap-3 justify-evenly border-b border-gray-700 pb-8">
                 <Box className="pl-3 pt-3 h-24 w-52 bg-[#1C2636] flex rounded-lg">
                     <Box className="bg-white rounded-lg w-12 h-12 flex items-center justify-center">
@@ -164,6 +165,7 @@ function Table() {
                 <button className='bg-[#A5BC52] w-full mt-7 text-white font-bold rounded-full py-3'>Approve</button>
                 </Box>
             </Box>
+        </Box>
         </Box>
     )
 }
